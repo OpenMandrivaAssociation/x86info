@@ -1,5 +1,5 @@
 %define	name	x86info
-%define	version	1.20
+%define	version	1.21
 %define realver	%{version}
 #define cvsdate	20050420
 
