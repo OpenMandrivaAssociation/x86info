@@ -17,7 +17,6 @@ Patch2:		x86info-1.17-cpuid-with-ecx-input.patch
 Patch3:		x86info-1.17-intel-multicore-htt.patch
 Patch4:		x86info-1.17-intel-caches-cpuid4.patch
 Patch5:		x86info-1.17-amd-multicore.patch
-BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 # Will never work on sparc, neither on ppc/alpha...
 ExclusiveArch:	%{ix86} x86_64 amd64
