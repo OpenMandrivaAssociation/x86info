@@ -9,6 +9,7 @@ Version:	%{version}
 Release:	%mkrel 1	
 License:	GPL
 Group:		System/Kernel and hardware
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 URL:		http://www.codemonkey.org.uk/projects/x86info/
 Source0:	%{name}-%{realver}%{?cvsdate:-%{cvsdate}}.tar.bz2
 Patch0:		x86info-1.17-intel-flags.patch
