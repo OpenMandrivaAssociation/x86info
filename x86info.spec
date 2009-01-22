@@ -1,12 +1,12 @@
 %define	name	x86info
-%define	version	1.21
+%define	version	1.23
 %define realver	%{version}
 #define cvsdate	20050420
 
 Summary:	Show x86 CPU information
 Name:		%{name}
 Version:	%{version}
-Release:	%mkrel 4	
+Release:	%mkrel 1	
 License:	GPL
 Group:		System/Kernel and hardware
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
@@ -32,7 +32,7 @@ lots more.
 %setup -q -n %{name}-%{realver}
 
 %build
-%make CFLAGS="%{optflags}"
+make CFLAGS="%{optflags}"
 
 %install
 rm -rf %{buildroot}
