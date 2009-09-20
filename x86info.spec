@@ -6,7 +6,7 @@
 Summary:	Show x86 CPU information
 Name:		%{name}
 Version:	%{version}
-Release:	%mkrel 1	
+Release:	%mkrel 2
 License:	GPL
 Group:		System/Kernel and hardware
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
