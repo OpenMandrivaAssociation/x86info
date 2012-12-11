@@ -40,3 +40,36 @@ install -m755 %{name}.1 %{buildroot}%{_mandir}/man1/
 %{_mandir}/man1/*
 
 
+
+
+%changelog
+* Mon Mar 12 2012 Alexander Khrukin <akhrukin@mandriva.org> 1.30-1
++ Revision: 784333
+- version update 1.30
+
+* Sun Sep 20 2009 Thierry Vignaud <tv@mandriva.org> 1.23-2mdv2010.0
++ Revision: 445863
+- rebuild
+
+* Thu Jan 22 2009 Giuseppe Ghibò <ghibo@mandriva.com> 1.23-1mdv2009.1
++ Revision: 332630
+- Release 1.23.
+- Disable parallel building (deps errors on some 8 core building host).
+
+* Sun Aug 03 2008 Thierry Vignaud <tv@mandriva.org> 1.21-4mdv2009.0
++ Revision: 262227
+- rebuild
+
+* Thu Jul 31 2008 Thierry Vignaud <tv@mandriva.org> 1.21-3mdv2009.0
++ Revision: 256561
+- rebuild
+- fix no-buildroot-tag
+- kill re-definition of %%buildroot on Pixel's request
+
+* Tue Nov 27 2007 Thierry Vignaud <tv@mandriva.org> 1.21-1mdv2008.1
++ Revision: 113388
+- new release
+
+  + Erwan Velu <erwan@mandriva.org>
+    - Fixing url
+
