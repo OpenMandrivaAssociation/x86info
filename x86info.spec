@@ -6,7 +6,7 @@
 Summary:	Show x86 CPU information
 Name:		%{name}
 Version:	%{version}
-Release:	2
+Release:	3
 License:	GPL
 Group:		System/Kernel and hardware
 URL:		http://www.codemonkey.org.uk/projects/x86info/
