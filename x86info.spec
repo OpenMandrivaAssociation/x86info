@@ -9,7 +9,7 @@ Version:	%{version}
 Release:	3
 License:	GPL
 Group:		System/Kernel and hardware
-URL:		http://www.codemonkey.org.uk/projects/x86info/
+URL:		https://www.codemonkey.org.uk/projects/x86info/
 Source0:	http://codemonkey.org.uk/projects/x86info/%{name}-%{version}.tgz
 BuildRequires:	pkgconfig(libpci)
 
