@@ -11,6 +11,7 @@ License:	GPL
 Group:		System/Kernel and hardware
 URL:		https://www.codemonkey.org.uk/projects/x86info/
 Source0:	http://codemonkey.org.uk/projects/x86info/%{name}-%{version}.tgz
+BuildRequires:	make
 BuildRequires:	pkgconfig(libpci)
 
 # Will never work on sparc, neither on ppc/alpha...
